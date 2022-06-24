@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Crystal Phoenix</string>
+    <string name="facebook_app_id">1217059605715983</string>
+    <string name="fb_login_protocol_scheme">fb1217059605715983</string>
+    <string name="image_chooser">Choose Image</string>
+</resources>

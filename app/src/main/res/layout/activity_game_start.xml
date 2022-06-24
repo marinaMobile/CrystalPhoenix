@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wht.GameStart"
+    android:background="@drawable/back">
+
+    <TextView
+        android:id="@+id/story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="@font/splinesans"
+        android:text="You are Crystal Phoenix, a wizard living in the kingdom of Larion. You have a staff and a spellbook. You finish your long journey and finally arrive at the ruin you've been looking for. You have come here searching for three mystical spellbooks of great power called the Books of Essence. You look around and see a staircase leading to a lower chamber, the chamber seems to glow with an otherworldly light. You take a few steps down the staircase and reach the lower chamber. There you've found three mystical spellbooks flying around. Try to catch them!
+"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startgame"
+        android:fontFamily="@font/tiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start the game!"
+        app:layout_constraintTop_toBottomOf="@id/story"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
